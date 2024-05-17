@@ -1,0 +1,22 @@
+<!-- 79) create a para with dummy content & hide this para using display & visibility property ( note down the diff between none & hidden value) -->
+
+<!-- The difference between display: none; and visibility: hidden; is that when an element is set to display: none;, it is completely removed 
+from the layout, including its space, and any other elements can occupy its position. Whereas, when an element is set to visibility: 
+hidden;, it is still rendered in the layout, but it's invisible and takes up space as if it were visible. -->
+
+<html>
+
+<body>
+    <p class="h">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+        cursus ante dapibus diam. Sed nisi.</p>
+</body>
+
+</html>
+<style>
+    /* .h{
+        display: none;
+    } */
+    .h {
+        visibility: hidden;
+    }
+</style>

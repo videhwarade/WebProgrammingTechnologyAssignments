@@ -1,0 +1,36 @@
+<!-- 20) create a div ( 1200X600
+dimension ). align the same div in center of the page .( after zoom in , zoom
+out div must get aligned in center area) -->
+
+<html>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia deserunt consequatur accusantium
+                quibusdam eaque! Facere sint nesciunt explicabo alias, cumque ullam culpa eveniet officiis qui, quos
+                exercitationem itaque voluptatibus quae!
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    .container {
+        width: 1200px;
+        height: 600px;
+        margin: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .col {
+        width: 100%;
+    }
+</style>

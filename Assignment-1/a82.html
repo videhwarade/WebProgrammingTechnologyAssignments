@@ -1,0 +1,29 @@
+<!-- 82) create a para (100X100
+dimension ) on hover move it with skew,skewX,skewY property -->
+
+<html>
+
+<body>
+    <p class="s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.
+    </p>
+</body>
+
+</html>
+<style>
+    .s {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        transition: transform 0.5s;/
+    }
+
+    /* .s:hover {
+    transform: skew(20deg, 10deg);
+} */
+    /* .s:hover {
+    transform: skewX(20deg);
+} */
+    .s:hover {
+        transform: skewY(10deg);
+    }
+</style>

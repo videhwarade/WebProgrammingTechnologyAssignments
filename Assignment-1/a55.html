@@ -1,0 +1,33 @@
+<!-- 55) create a div (having width:100px , height:100px ). on mouse over scale it using transform property
+(hint: use scale() , scaleX() , scaleY() ) -->
+
+<html>
+
+<body>
+    <div class="c">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </div>
+    <div class="c c-scale-x">Hover over me</div>
+    <div class="c box-scale-y">Hover over me</div>
+
+</body>
+
+</html>
+<style>
+    .c {
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        transition: transform 0.3s;
+    }
+
+    .c:hover {
+        transform: scale(1.5);
+    }
+
+    .c-scale-x:hover {
+        transform: scaleX(1.5);
+    }
+
+    .c-scale-y:hover {
+        transform: scaleX(1.5);
+    }
+</style>
